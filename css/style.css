@@ -1,0 +1,229 @@
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+h1{
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+ul{
+
+  padding-left: 1px;
+}
+
+
+/* Contenedor Principal */
+.Container{
+  width: 1440px;
+  height: fit-content;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card{
+  width: 320px;
+  height: 495px;
+  text-align: center;
+  background-color: hsl(216, 50%, 16%);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+
+.image{
+  border-radius: 10px;
+  width: 290px;
+  height: 287px;
+  /* background-position: center;
+  background-size: cover; */
+  position: relative;
+
+}
+
+.image-2{
+  /* background-position: center;
+  background-size: cover; */
+  top: 150px;
+  opacity: 0;
+  /* background-size: contain; */
+  padding: 120px;
+  border-radius: 10px;
+}
+
+.Card-image{
+
+  border-radius: 10px;
+  transition: all .3s ease-out;
+  background-position: center;
+  width: 290px;
+  height: 287px;
+  margin-left: 15px;
+}
+
+.Card-image-2{
+  position: relative;
+  width: 290px;
+  height: 287px;
+  bottom: 290px;
+  border-radius: 10px;
+
+}
+
+.Card-image-2:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.image-2:hover{
+  opacity: 1;
+  background-color: hsl(178, 100%, 50%);
+}
+
+
+/* ************Card-body************ */
+.Card-paragraph{
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.H1-hover:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/* *************SVG************* */
+.Price{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.Price figure{
+display: flex;
+align-items: center;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.h2-1{
+width: 80px;
+font-weight: 300;
+font-size: 1rem;
+display: inline-block;
+margin-left: 7px;
+color: hsl(178, 100%, 50%);
+}
+
+.h2-2{
+  width: 80px;
+font-weight: 300;
+margin-left: 7px;
+font-size: 1rem;
+color: hsl(215, 51%, 70%);
+}
+
+/* **************hr****************** */
+
+
+hr{
+   color: hsl(215, 51%, 70%);
+   position: relative;
+   top: .10rem;
+   border-color: hsl(215, 51%, 70%);
+    margin-bottom: .5rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: 0.2;
+}
+
+
+/* **********Card creator********* */
+.Card-creator{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+
+}
+
+
+/* **************Card creator************** */
+
+.image-creator{
+  width: 33px;
+  height: 33px;
+  margin-right: 15px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.Card-p{
+align-items: center;
+color: hsl(215, 51%, 70%);
+}
+
+.Card-N{
+  color: hsl(0, 0%, 100%);
+}
+
+.Card-N:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/* *********attribution********* */
+
+.attribution{
+  position: absolute;
+  margin-top: 600px;
+}
+
+/* ************Media Querry************* */
+
+/* MEDIA QUERY */
+@media screen and (max-width: 450px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 395px) {
+
+    .card {
+        width: 90%;
+    }
+
+}
